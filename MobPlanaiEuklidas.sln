@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobPlanaiEuklidas", "MobPlanaiEuklidas.csproj", "{076F3F5B-0DDE-462E-9016-DF117C7A5845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{076F3F5B-0DDE-462E-9016-DF117C7A5845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076F3F5B-0DDE-462E-9016-DF117C7A5845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076F3F5B-0DDE-462E-9016-DF117C7A5845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076F3F5B-0DDE-462E-9016-DF117C7A5845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7CB6369-2041-4AA9-9FBE-4D50295C6D7D}
+	EndGlobalSection
+EndGlobal
