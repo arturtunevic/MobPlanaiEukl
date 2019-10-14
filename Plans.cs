@@ -29,7 +29,7 @@ namespace MobPlanaiEuklidas
             return provider;
         }
 
-        public void AddAuto(Plan plan)
+        public void AddPlan(Plan plan)
         {
             plans.Add(plan);
         }
