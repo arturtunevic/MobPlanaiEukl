@@ -51,10 +51,16 @@ namespace MobPlanaiEuklidas
                 val1 = Convert.ToDouble(PlansDebugView.Rows[i].Cells[2].Value.ToString());
                 val2 = Convert.ToDouble(PlansDebugView.Rows[i].Cells[3].Value.ToString());
                 val3 = Convert.ToDouble(PlansDebugView.Rows[i].Cells[4].Value.ToString());
-                val4 = Convert.ToDouble(PlansDebugView.Rows[i].Cells[].Value.ToString());
+                val4 = Convert.ToDouble(PlansDebugView.Rows[i].Cells[5].Value.ToString());
                 results.Add(Math.Sqrt(Math.Pow(minutes - val1, 2) + Math.Pow(sms - val2, 2) + Math.Pow(netGb - val3, 2) + Math.Pow(price - val4, 2)));
                 listBox1.Items.Add(Math.Sqrt(Math.Pow(minutes - val1, 2) + Math.Pow(sms - val2, 2) + Math.Pow(netGb - val3, 2) + Math.Pow(price - val4, 2)));
             }
+
+            double lowestVal = results.Min();
+            int indx = listBox1.Items.IndexOf(lowestVal);
+            indx = indx + 1;
+            PlanSuggestion.Text = "Plano ID " + indx;
+
             
         }
     }

@@ -39,6 +39,8 @@
             this.FindPlanBtn = new System.Windows.Forms.Button();
             this.PlansDebugView = new System.Windows.Forms.DataGridView();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.PlanSuggestion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PlansDebugView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,12 +142,34 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 95);
             this.listBox1.TabIndex = 11;
+            this.listBox1.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.label5.Location = new System.Drawing.Point(12, 204);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(146, 20);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Siulomas Planas:";
+            // 
+            // PlanSuggestion
+            // 
+            this.PlanSuggestion.AutoSize = true;
+            this.PlanSuggestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.PlanSuggestion.Location = new System.Drawing.Point(159, 204);
+            this.PlanSuggestion.Name = "PlanSuggestion";
+            this.PlanSuggestion.Size = new System.Drawing.Size(0, 20);
+            this.PlanSuggestion.TabIndex = 13;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 337);
+            this.Controls.Add(this.PlanSuggestion);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.PlansDebugView);
             this.Controls.Add(this.FindPlanBtn);
@@ -179,6 +203,8 @@
         private System.Windows.Forms.Button FindPlanBtn;
         private System.Windows.Forms.DataGridView PlansDebugView;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label PlanSuggestion;
     }
 }
 
