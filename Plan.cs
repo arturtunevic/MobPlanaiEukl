@@ -9,16 +9,16 @@ namespace MobPlanaiEuklidas
     public class Plan
     {
 
-        private string provider;
+        private int ID;
         private string planName;
         private int minAmt;
         private int smsAmt;
         private int netGBAmt;
         private double price;
 
-        public Plan(string provider, string planName, int minAmt, int smsAmt, int netGBAmt, double price)
+        public Plan(int iD, string planName, int minAmt, int smsAmt, int netGBAmt, double price)
         {
-            this.provider = provider;
+            ID = iD;
             this.planName = planName;
             this.minAmt = minAmt;
             this.smsAmt = smsAmt;
@@ -26,6 +26,11 @@ namespace MobPlanaiEuklidas
             this.price = price;
         }
 
-
+        public int ID1 { get => ID; set => ID = value; }
+        public string PlanName { get => planName; set => planName = value; }
+        public int MinAmt { get => minAmt; set => minAmt = value; }
+        public int SmsAmt { get => smsAmt; set => smsAmt = value; }
+        public int NetGBAmt { get => netGBAmt; set => netGBAmt = value; }
+        public double Price { get => price; set => price = value; }
     }
 }
